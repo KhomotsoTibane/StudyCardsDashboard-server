@@ -8,10 +8,10 @@ const userRoutes = require('./routes/user')
 
 // express app
 const app = express()
-// app.use(cors({
-//     credentials:true,
-//     origin: 'https://sweet-biscotti-3d0038.netlify.app',
-//   }));
+app.use(cors({
+    credentials:true,
+    origin: 'https://eloquent-fox-cdeb0b.netlify.app',
+  }));
 
 // app.use(cors({
 //   credentials:true,

@@ -10,13 +10,8 @@ const userRoutes = require('./routes/user')
 const app = express()
 app.use(cors({
     credentials:true,
-    origin: 'https://eloquent-fox-cdeb0b.netlify.app',
+    origin: ['https://eloquent-fox-cdeb0b.netlify.app' , 'http://localhost:3000'],
   }));
-
-// app.use(cors({
-//   credentials:true,
-//   origin: 'http://localhost:3000',
-// }));
 
 
 // middleware
